@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de75e1c5-723d-43b3-91bc-f24cecfaf8b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/personas.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/Aplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/Aplicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/ProcesoBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/ProcesoBatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/DefinicionEtapa1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/DefinicionEtapa1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
