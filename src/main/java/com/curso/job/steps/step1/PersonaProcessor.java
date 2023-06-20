@@ -1,5 +1,6 @@
 package com.curso.job.steps.step1;
 
+import com.curso.job.mappers.Persona2PersonaProcesada;
 import com.curso.models.Persona;
 import com.curso.models.PersonaProcesada;
 import org.springframework.batch.item.ItemProcessor;
@@ -14,6 +15,14 @@ import org.springframework.stereotype.Component;
     // PERO!!!!!! No quiero que otros componentes dependan de éste... Si éste el día de mañana lo cambio
     // Quiero que ese cambio sea transparente para el resto de componentes
 public class PersonaProcessor implements ItemProcessor<Persona, PersonaProcesada> {
+
+    //@Autowired
+    private Persona2PersonaProcesada mapper;
+
+    public PersonaProcessor(Persona2PersonaProcesada mapper) {
+        this.mapper = mapper;
+    }
+
     @Override
     public PersonaProcesada process(Persona persona) throws Exception {
         // Validar los datos de la persona
@@ -21,14 +30,7 @@ public class PersonaProcessor implements ItemProcessor<Persona, PersonaProcesada
         // Filtrar personas para que no se guarden allá donde sea
         if(persona.getDni().endsWith("A")) return null;
         // Calcular datos de la persona
-        PersonaProcesada personaProcesada = new PersonaProcesada();
-        personaProcesada.setNombre(persona.getNombre());
-        personaProcesada.setApellidos(persona.getApellidos());
-        personaProcesada.setDni(persona.getDni());
-        personaProcesada.setEmail(persona.getEmail());
-        personaProcesada.setNombreCompleto(persona.getNombre() + " " + persona.getApellidos());
-
-        return null;
+        return mapper.persona2personaProcesada(persona);
     }
 
     public static boolean validarEmail(String email){
