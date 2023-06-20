@@ -8,6 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Aplicacion {
 
     public static void main(String[] args){
-        SpringApplication.run(Aplicacion.class);
+        SpringApplication.run(Aplicacion.class);    // Inversión de control!
     }
 }
