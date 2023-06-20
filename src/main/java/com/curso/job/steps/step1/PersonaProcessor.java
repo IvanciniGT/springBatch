@@ -6,7 +6,7 @@ import com.curso.models.PersonaProcesada;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 
-// TODO: PASO 3
+// TODO: PASO 4
 // Montar el procesador de Personas, para validarlas, transformarlas...
 @Component
     // ^^ Spring!!!!

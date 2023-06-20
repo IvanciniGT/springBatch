@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de75e1c5-723d-43b3-91bc-f24cecfaf8b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notas/dia2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/models/PersonaProcesada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/personas.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/mappers/PersonaReaderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/mappers/PersonaReaderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/Aplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/Aplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/ProcesoBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/ProcesoBatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/DefinicionEtapa1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/DefinicionEtapa1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/models/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/models/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/PersonaWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,31 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.curso.job.mappers.Persona2PersonaProcesada" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Aplicacion" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="prueba-batch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.curso.Aplicacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.curso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Aplicacion" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
