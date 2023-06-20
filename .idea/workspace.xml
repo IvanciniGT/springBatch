@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de75e1c5-723d-43b3-91bc-f24cecfaf8b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/mappers/Persona2PersonaProcesadaImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/schedules/ProgramacionDelProceso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/listeners/Etapa1ProcessorListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/listeners/Etapa1WriterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/Etapa1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/Aplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/Aplicacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/ProcesoBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/ProcesoBatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/listeners/ProcesoBatchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/listeners/ProcesoBatchListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/mappers/Persona2PersonaProcesada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/mappers/Persona2PersonaProcesada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/DefinicionEtapa1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step1/DefinicionEtapa1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,12 +44,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ivan/IdeaProjects/pruebaBatch/src/main/java/com/curso/job/steps/step2&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/curso/job/steps/step2" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="com.curso.job.mappers.Persona2PersonaProcesada" />
     </key>

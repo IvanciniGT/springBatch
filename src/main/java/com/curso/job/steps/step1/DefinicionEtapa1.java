@@ -20,16 +20,16 @@ public class DefinicionEtapa1 {
     }
 
     @Bean
-    public Step crearEtapa1(ItemReader<Persona> lectorPersonas, PersonaProcessor procesadorDePersonas,
+    public Etapa1 crearEtapa1(ItemReader<Persona> lectorPersonas, PersonaProcessor procesadorDePersonas,
                             PersonaWriter personaWriter, Etapa1ProcessorListener processorListener,
                             Etapa1WriterListener writerListener){
-        return this.factoriaEtapas.get("etapa1")
+        return new Etapa1(this.factoriaEtapas.get("etapa1")
                 .<Persona, PersonaProcesada>chunk(10) // Lee tantas personas para procesarlas de una atacada
                 .reader(lectorPersonas)
                 .processor(procesadorDePersonas)
                 .writer(personaWriter)
                 .listener(processorListener)
                 .listener(writerListener)
-                .build();
+                .build());
     }
 }
